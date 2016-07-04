@@ -22,11 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="lm-homework" />
+        <module name="CountMostImport" />
+        <module name="EffectiveLines" />
+        <module name="ExchangeRate" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lm-homework" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="CountMostImport" target="1.8" />
+      <module name="EffectiveLines" target="1.8" />
+      <module name="ExchangeRate" target="1.8" />
+      <module name="lm-homework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
